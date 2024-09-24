@@ -43,11 +43,6 @@ calc_var = function(mu,beta){
   return(second_moment - first_moment^2)
 }
 
-<<<<<<< HEAD
-
-print(calc_var(0,2))
-=======
 print(calc_var(0,2))
 print(calc_var(2,2))
 print("trying some github")
->>>>>>> parent of b753825 (added calc_variance fn)
