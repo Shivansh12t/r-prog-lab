@@ -44,5 +44,4 @@ calc_var = function(mu,beta){
 }
 
 print(calc_var(0,2))
-print(calc_var(2,2))
-print("trying some github")
+
