@@ -43,6 +43,10 @@ calc_var = function(mu,beta){
   return(second_moment - first_moment^2)
 }
 
+# further abstraction
+calc_variance = function(mu, beta){
+  return(calc_var(mu,beta))
+}
+
 print(calc_var(0,2))
-print(calc_var(2,2))
-print("trying some github")
+print(calc_variance(0,2))
